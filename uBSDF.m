@@ -237,12 +237,12 @@ set(gca,'xscale','log')
 %% BRDF Peterson model TIS
 % thet1=0:0.000001:pi/2;
 % 
-% BSDF1=0;
+% 
 % 
 % 
 % 
 % for cnt=1:7
-% 
+% BSDF1=0;
 % for cntx=1:length(NEI)%sum over all diameters
 % Nd=NEI(cntx)./Sm;%Density of the umeteoroids
 % d=DCrater(cnt,cntx)*1e-2;% D1 D2 D3 Dpw1 Dpw2 Dpw3 Dpw4
